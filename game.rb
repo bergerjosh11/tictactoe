@@ -1,12 +1,11 @@
 require_relative "./board"
 require_relative "./player"
 
-class game
+class Game
 
   POSITION = %w[1 2 3 4 5 6 7 8 9]
 
   def display_info
-    puts INFO
   end
 
   def start(x_player, o_player, board)
