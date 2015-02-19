@@ -94,7 +94,7 @@ class Game
     if mark == "X"
       puts "Congratulation!!!, you won the game\n\n"
     else
-      puts "Sorry, you lost the game :( \n\n"
+      puts "Sorry, you lost the game.\n\n"
     end
     exit
   end
